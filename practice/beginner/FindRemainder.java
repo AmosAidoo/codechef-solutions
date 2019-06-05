@@ -4,7 +4,7 @@ public class FindRemainder {
 
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)){
-            int t, n, a, b;
+            int t, a, b;
             String input, a_b[];
             t = scan.nextInt();
             scan.nextLine();
