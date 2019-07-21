@@ -9,8 +9,8 @@ int main(){
 	cin >> t;
 	vector<ll> pws;
 	ll y = 0L;	
-	for (long long p = 0; p <= 1e9; p++){
-		long long product = p * p;
+	for (ll p = 0; p <= 1e9; p++){
+		ll product = p * p;
 		if (product > y){
 			y += product;
 			pws.push_back(p);
