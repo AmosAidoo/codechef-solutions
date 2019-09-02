@@ -9,16 +9,14 @@ int main(){
 	while(t--) {
 		long long n;
 		cin >> n;
-		long long ncpy = n;
+		cout << n;
 		int sum = 0;
-		while (ncpy > 0) {
-			sum += ncpy % 10;
-			ncpy /= 10;
+		while (n > 0) {
+			sum += n % 10;
+			n /= 10;
 		}
-		int i;
-		for (i = 0; i < 10; i++) {
-			if ((sum + i) % 10 == 0) break;
-		}
-		cout << n << i << "\n";
+		int a = (10 - sum%10);
+		a = (a == 10) ? 0 : a;
+		cout << a << "\n";
 	}
 }
