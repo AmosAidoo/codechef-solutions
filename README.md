@@ -1,2 +1,1 @@
-# CodeChef Solutions
-My codechef problem solutions
+## The Solutions in java
